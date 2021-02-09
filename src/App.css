@@ -1,9 +1,13 @@
 body{
     font-family: 'Open Sans Condensed';
     padding: 20px 60px;
+    background: linear-gradient(110deg, #fd683b 60%, #ffed4b 60%);
 }
-
 a{
     text-decoration: none;
     color: black;
+}
+
+*{
+    box-sizing: border-box;
 }
