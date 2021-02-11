@@ -65,7 +65,7 @@ handleChange = event => {
             value={displayName}
             onChange={this.handleChange}
             label="Display Name"
-            require
+            required
           />
           <FormInput
             type="email"
@@ -73,7 +73,7 @@ handleChange = event => {
             value={email}
             onChange={this.handleChange}
             label="Display Email"
-            require
+            required
           />
           <FormInput
             type="password"
@@ -81,7 +81,7 @@ handleChange = event => {
             value={password}
             onChange={this.handleChange}
             label="Password"
-            require
+            required
           />
           <FormInput
             type="password"
@@ -89,7 +89,7 @@ handleChange = event => {
             value={confirmPassword}
             onChange={this.handleChange}
             label="Confirm Password"
-            require
+            required
           />
           <CustomButton type="submit"> SIGN UP </CustomButton>
         </form>
