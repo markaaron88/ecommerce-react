@@ -2,6 +2,7 @@ import React from "react";
 import MenuItem from "../menu-item/menu-item.component";
 import './directory.styles.scss'
 
+
 class Directory extends React.Component {
   constructor() {
     super();
@@ -9,30 +10,30 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: "skins",
-          imageUrl: "https://i.ibb.co/173M5Hs/wraith.jpg",
+          title: "Mounts",
+          imageUrl: "https://i.ibb.co/7SrfjJg/296850-1.jpg",
           id: 1,
-          linkUrl: 'skins'
+          linkUrl: 'shop'
         },
         {
-          title: "heirlooms",
-          imageUrl: "https://i.ibb.co/MsdYbwN/heirloom-octane.png",
+          title: "Pets",
+          imageUrl: "https://i.ibb.co/NpJTk9G/pets.jpg",
           id: 2,
         },
         {
-          title: "news",
-          imageUrl: "https://i.ibb.co/D7Rz8mf/newspaper.jpg",
+          title: "Toys",
+          imageUrl: "https://i.ibb.co/Gs2p9nb/277221.jpg",
           id: 3,
         },
         {
-          title: "characters",
-          imageUrl: "https://i.ibb.co/BBrnQhC/ApexChar.jpg",
+          title: "Bundles",
+          imageUrl: "https://i.ibb.co/f1b7Djn/881376.jpg",
           size: "large",
           id: 4,
         },
         {
-          title: "maps",
-          imageUrl: "https://i.ibb.co/gwm9Vwp/apexMap.jpg",
+          title: "Game Services",
+          imageUrl: "https://i.ibb.co/6vmXSmM/277224.jpg",
           size: "large",
           id: 5,
         },

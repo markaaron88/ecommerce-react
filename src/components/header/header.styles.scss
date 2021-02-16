@@ -1,14 +1,22 @@
+@font-face {
+  font-family: "LifeCraft_Font";
+  src: local("ALifeCraft_Font"),
+    url("../../fonts/LifeCraft_Font.ttf") format("truetype");
+  font-weight: normal;
+}
+
 .header {
     height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+
   
     .logo-container {
       height: 100%;
       width: 70px;
-      padding: 25px;
+      padding: 10px;
     }
   
     .options {
@@ -17,10 +25,14 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
+      
   
       .option {
         padding: 10px 15px;
         cursor: pointer;
+        color: white;
+        font-family: LifeCraft_Font;
+        font-size: 24px;
       }
     }
   }

@@ -1,36 +1,36 @@
 const SHOP_DATA = [
     {
       id: 1,
-      title: 'Hats',
-      routeName: 'hats',
+      title: 'Mounts',
+      routeName: 'mounts',
       items: [
         {
           id: 1,
-          name: 'Brown Brim',
+          name: 'Sylverian Dreamer',
           // imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-          imageUrl: "/images/shop-img/hats/brown-brim.png",
+          imageUrl: "/images/shop-img/hats/sylverian.png",
           price: 25
         },
         {
           id: 2,
-          name: 'Blue Beanie',
+          name: 'Dreadwake',
           // imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-          imageUrl: "/images/shop-img/hats/blue-beanie.png",
-          price: 18
+          imageUrl: "/images/shop-img/hats/dreadwake.jpg",
+          price: 25
         },
         {
           id: 3,
-          name: 'Brown Cowboy',
+          name: 'Warforged NightMare',
           // imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-          imageUrl: "/images/shop-img/hats/brown-cowboy.png",
+          imageUrl: "/images/shop-img/hats/warforged.jpg",
           price: 35
         },
         {
           id: 4,
-          name: 'Grey Brim',
+          name: 'Enchanted Fey Dragon',
           // imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-          imageUrl: "/images/shop-img/hats/grey-brim.png",
-          price: 25
+          imageUrl: "/images/shop-img/hats/feydragon.png",
+          price: 45
         },
         {
           id: 5,
@@ -71,8 +71,8 @@ const SHOP_DATA = [
     },
     {
       id: 2,
-      title: 'Sneakers',
-      routeName: 'sneakers',
+      title: 'Pets',
+      routeName: 'pets',
       items: [
         {
           id: 10,
@@ -134,8 +134,8 @@ const SHOP_DATA = [
     },
     {
       id: 3,
-      title: 'Jackets',
-      routeName: 'jackets',
+      title: 'Toys',
+      routeName: 'toys',
       items: [
         {
           id: 18,
@@ -176,8 +176,8 @@ const SHOP_DATA = [
     },
     {
       id: 4,
-      title: 'Womens',
-      routeName: 'womens',
+      title: 'Bundles',
+      routeName: 'bundles',
       items: [
         {
           id: 23,
@@ -232,8 +232,8 @@ const SHOP_DATA = [
     },
     {
       id: 5,
-      title: 'Mens',
-      routeName: 'mens',
+      title: 'Game Services',
+      routeName: 'game services',
       items: [
         {
           id: 30,
