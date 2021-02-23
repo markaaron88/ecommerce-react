@@ -11,7 +11,7 @@ import { selectCartHidden } from "../../redux/cart/cart.selectors.js";
 import { selectCurrentUser } from "../../redux/user/user.selectors.js";
 
 import "./header.styles.scss";
-import "../../fonts/LifeCraft_Font.ttf";
+
 
 const Header = ({ currentUser, hidden }) => (
   <div className="header">

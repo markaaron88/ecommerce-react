@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import "./App.css";
 import { connect } from "react-redux";
 import {createStructuredSelector} from 'reselect'
-import "../src/fonts/LifeCraft_Font.ttf";
+
 
 import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/shop/shop.component";
