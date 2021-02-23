@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "LifeCraft_Font";
-  src: local("ALifeCraft_Font"),
-    url("../../fonts/LifeCraft_Font.ttf") format("truetype");
-  font-weight: normal;
-}
 
 .header {
     height: 70px;
@@ -30,7 +24,7 @@
       .option {
         padding: 10px 15px;
         cursor: pointer;
-        color: white;
+        color: black;
         font-family: LifeCraft_Font;
         font-size: 24px;
       }

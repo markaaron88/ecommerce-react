@@ -1,16 +1,8 @@
-@font-face {
-  font-family: "LifeCraft_Font";
-  src: local("ALifeCraft_Font"),
-    url("../src/fonts/LifeCraft_Font.ttf") format("truetype");
-  font-weight: normal;
-}
-
 body {
   font-family: "Open Sans Condensed";
   padding: 20px 60px;
   /* background: linear-gradient(110deg, #002650 60%, #1c2534 60%); */
-  background: rgb(185, 173, 173);
-  font-family: LifeCraft_Font;
+  background: white;
 }
 a {
   text-decoration: none;

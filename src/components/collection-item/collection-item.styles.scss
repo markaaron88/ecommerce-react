@@ -1,5 +1,5 @@
 .collection-item {
-    width: 22%;
+    width: 22vw;
     display: flex;
     flex-direction: column;
     height: 350px;
@@ -41,13 +41,13 @@
       .name {
         width: 90%;
         margin-bottom: 15px;
-        color: white;
+        color: rgb(14, 13, 13);
         font-size: 24px;
       }
   
       .price {
         width: 10%;
-        color: white;
+        color: rgb(10, 10, 10);
         font-size: 24px;
       }
     }
