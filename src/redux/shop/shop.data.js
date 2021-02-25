@@ -1,282 +1,181 @@
 const SHOP_DATA = {
-  mounts:  {
+  toys:  {
       id: 1,
-      title: 'Mounts',
-      routeName: 'mounts',
-      items: [
-        {
-          id: 1,
-          name: 'Sylverian Dreamer',
-          // imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-          imageUrl: "/images/shop-img/hats/sylverian.png",
-          price: 25
-        },
-        {
-          id: 2,
-          name: 'Dreadwake',
-          // imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-          imageUrl: "/images/shop-img/hats/dreadwake.jpg",
-          price: 25
-        },
-        {
-          id: 3,
-          name: 'Warforged NightMare',
-          // imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-          imageUrl: "/images/shop-img/hats/warforged.jpg",
-          price: 35
-        },
-        {
-          id: 4,
-          name: 'Enchanted Fey Dragon',
-          // imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-          imageUrl: "/images/shop-img/hats/feydragon.png",
-          price: 45
-        },
-        {
-          id: 5,
-          name: 'Green Beanie',
-          // imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-          imageUrl: "/images/shop-img/hats/green-beanie.png",
-          price: 18
-        },
-        {
-          id: 6,
-          name: 'Palm Tree Cap',
-          // imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-          imageUrl: "/images/shop-img/hats/palm-tree-cap.png",
-          price: 14
-        },
-        {
-          id: 7,
-          name: 'Red Beanie',
-          // imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-          imageUrl: "/images/shop-img/hats/red-beanie.png",
-          price: 18
-        },
-        {
-          id: 8,
-          name: 'Wolf Cap',
-          // imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
-          imageUrl: "/images/shop-img/hats/wolf-cap.png",
-          price: 14
-        },
-        {
-          id: 9,
-          name: 'Blue Snapback',
-          // imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
-          imageUrl: "/images/shop-img/hats/blue-snapback.png",
-          price: 16
-        }
-      ]
-    },
-    pets: {
-      id: 2,
-      title: 'Pets',
-      routeName: 'pets',
-      items: [
-        {
-          id: 10,
-          name: 'Adidas NMD',
-          // imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-          imageUrl: "/images/shop-img/sneakers/adidas-nmd.png", 
-          price: 220
-        },
-        {
-          id: 11,
-          name: 'Adidas Yeezy',
-          // imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-          imageUrl: "/images/shop-img/sneakers/yeezy.png",
-          price: 280
-        },
-        {
-          id: 12,
-          name: 'Black Converse',
-          // imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-          imageUrl: "/images/shop-img/sneakers/black-converse.png",
-          price: 110
-        },
-        {
-          id: 13,
-          name: 'Nike White AirForce',
-          // imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-          imageUrl: "/images/shop-img/sneakers/white-nike-high-tops.png",
-          price: 160
-        },
-        {
-          id: 14,
-          name: 'Nike Red High Tops',
-          // imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-          imageUrl: "/images/shop-img/sneakers/nikes-red.png",
-          price: 160
-        },
-        {
-          id: 15,
-          name: 'Nike Brown High Tops',
-          // imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-          imageUrl: "/images/shop-img/sneakers/nike-brown.png",
-          price: 160
-        },
-        {
-          id: 16,
-          name: 'Air Jordan Limited',
-          // imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-          imageUrl: "/images/shop-img/sneakers/nike-funky.png",
-          price: 190
-        },
-        {
-          id: 17,
-          name: 'Timberlands',
-          // imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-          imageUrl: "/images/shop-img/sneakers/timberlands.png",
-          price: 200
-        }
-      ]
-    },
-    toys:{
-      id: 3,
       title: 'Toys',
       routeName: 'toys',
       items: [
         {
-          id: 18,
-          name: 'Black Jean Shearling',
-          // imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-          imageUrl: "/images/shop-img/jackets/black-shearling.png",
-          price: 125
+          id: 1,
+          name: 'Ducky',
+          imageUrl: "/images/shop-img/toys/ducktoy.jpeg",
+          price: 8
         },
         {
-          id: 19,
-          name: 'Blue Jean Jacket',
-          // imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-          imageUrl: "/images/shop-img/jackets/blue-jean-jacket.png",
-          price: 90
+          id: 2,
+          name: 'Squirrel squeaker',
+          imageUrl: "/images/shop-img/toys/squirreltoy.jpg",
+          price: 5
         },
         {
-          id: 20,
-          name: 'Grey Jean Jacket',
-          // imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-          imageUrl: "/images/shop-img/jackets/grey-jean-jacket.png",
-          price: 90
+          id: 3,
+          name: 'Hedgehog',
+          imageUrl: "/images/shop-img/toys/hedgehogtoy.jpg",
+          price: 7
         },
         {
-          id: 21,
-          name: 'Brown Shearling',
-          // imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-          imageUrl: "/images/shop-img/jackets/brown-shearling.png",
-          price: 165
+          id: 4,
+          name: 'Mr.Fox',
+          imageUrl: "/images/shop-img/toys/mrfox.jpg",
+          price: 9
         },
         {
-          id: 22,
-          name: 'Tan Trench',
-          // imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-          imageUrl: "/images/shop-img/jackets/brown-trench.png",
-          price: 185
-        }
+          id: 5,
+          name: '2 KONGS',
+          imageUrl: "/images/shop-img/toys/kong.jpeg",
+          price: 17
+        },
       ]
     },
-   bundles: {
-      id: 4,
-      title: 'Bundles',
-      routeName: 'bundles',
+    clothing: {
+      id: 2,
+      title: 'Clothing',
+      routeName: 'clothing',
       items: [
         {
-          id: 23,
-          name: 'Blue Tanktop',
-          // imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
-          imageUrl: "/images/shop-img/womens/blue-tank.png",
-          price: 25
+          id: 6,
+          name: 'Christmas Santa Clause Outfit',
+          imageUrl: "/images/shop-img/clothing/christmasdog.jpeg", 
+          price: 9
         },
         {
-          id: 24,
-          name: 'Floral Blouse',
-          // imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
-          imageUrl: "/images/shop-img/womens/floral-blouse.png",
-          price: 20
+          id: 7,
+          name: 'Blue Sweater Pullover',
+          imageUrl: "/images/shop-img/clothing/dogsweater.jpeg",
+          price: 9
         },
         {
-          id: 25,
-          name: 'Floral Dress',
-          // imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-          imageUrl: "/images/shop-img/womens/floral-skirt.png",
-          price: 80
+          id: 8,
+          name: 'Pink Sweater Pullover',
+          imageUrl: "/images/shop-img/clothing/dogpinkdress.jpg",
+          price: 8
         },
         {
-          id: 26,
-          name: 'Red Dots Dress',
-          // imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-          imageUrl: "/images/shop-img/womens/red-polka-dot-dress.png",
-          price: 80
+          id: 9,
+          name: 'Black Dress',
+          imageUrl: "/images/shop-img/clothing/doggreydress.jpg",
+          price: 8
         },
         {
-          id: 27,
-          name: 'Striped Sweater',
-          // imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-          imageUrl: "/images/shop-img/womens/striped-sweater.png",
-          price: 45
-        },
-        {
-          id: 28,
-          name: 'Yellow Track Suit',
-          // imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-          imageUrl: "/images/shop-img/womens/yellow-track-suit.png",
-          price: 135
-        },
-        {
-          id: 29,
-          name: 'White Blouse',
-          // imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-          imageUrl: "/images/shop-img/womens/white-vest.png",
-          price: 20
-        }
+          id: 10,
+          name: 'Dog Jacket',
+          imageUrl: "/images/shop-img/clothing/dogjacket.jpg",
+          price: 7
+        },      
       ]
     },
-    gameservices:{
-      id: 5,
-      title: 'Game Services',
-      routeName: 'gameservices',
+    beds:{
+      id: 3,
+      title: 'Beds',
+      routeName: 'beds',
       items: [
         {
-          id: 30,
-          name: 'Camo Down Vest',
-          // imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-          imageUrl: "/images/shop-img/mens/camo-vest.png",
-          price: 325
+          id: 11,
+          name: 'Large Size Bed',
+          imageUrl: "/images/shop-img/beds/largebed.jpeg",
+          price: 10
         },
         {
-          id: 31,
-          name: 'Floral T-shirt',
-          // imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-          imageUrl: "/images/shop-img/mens/floral-shirt.png",
-          price: 20
-        },
-        {
-          id: 32,
-          name: 'Black & White Longsleeve',
-          // imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-          imageUrl: "/images/shop-img/mens/long-sleeve.png",
-          price: 25
-        },
-        {
-          id: 33,
-          name: 'Pink T-shirt',
-          // imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-          imageUrl: "/images/shop-img/mens/pink-shirt.png",
-          price: 25
-        },
-        {
-          id: 34,
-          name: 'Jean Long Sleeve',
-          // imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-          imageUrl: "/images/shop-img/mens/roll-up-jean-shirt.png",
+          id: 12,
+          name: 'Small Size Bed',
+          imageUrl: "/images/shop-img/beds/greybed.jpeg",
           price: 40
         },
         {
-          id: 35,
-          name: 'Burgundy T-shirt',
-          // imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
-          imageUrl: "/images/shop-img/mens/polka-dot-shirt.png",
+          id: 13,
+          name: 'Medium Size Bed',
+          imageUrl: "/images/shop-img/beds/smallbed.jpeg",
+          price: 50
+        },
+        {
+          id: 14,
+          name: 'Circular Bed',
+          imageUrl: "/images/shop-img/beds/circlebed.jpeg",
+          price: 110
+        },
+      ]
+    },
+   food: {
+      id: 4,
+      title: 'Food',
+      routeName: 'food',
+      items: [
+        {
+          id: 15,
+          name: 'Chicken Flavor',
+          imageUrl: "/images/shop-img/food/dogfood.jpg",
           price: 25
-        }
+        },
+        {
+          id: 16,
+          name: 'Roasted Chicken',
+          imageUrl: "/images/shop-img/food/dogfood2.jpeg",
+          price: 15
+        },
+        {
+          id: 17,
+          name: 'Puppy Wet Dog Food',
+          imageUrl: "/images/shop-img/food/dogwetfood1.jpeg",
+          price: 9
+        },
+        {
+          id: 18,
+          name: 'Chicken Wet Dog Food',
+          imageUrl: "/images/shop-img/food/dogwetfood2.png",
+          price: 25
+        },
+      ]
+    },
+    treats:{
+      id: 5,
+      title: 'Treats',
+      routeName: 'treats',
+      items: [
+        {
+          id: 19,
+          name: 'Steak Flavor',
+          imageUrl: "/images/shop-img/treats/treat1.jpg",
+          price: 9
+        },
+        {
+          id: 20,
+          name: 'Frosty Paws',
+          imageUrl: "/images/shop-img/treats/treat2.jpg",
+          price: 8
+        },
+        {
+          id: 21,
+          name: 'Real Beef Flavor',
+          imageUrl: "/images/shop-img/treats/treat3.jpg",
+          price: 10
+        },
+        {
+          id: 22,
+          name: 'Peanut Butter Flavor Bones',
+          imageUrl: "/images/shop-img/treats/treat4.jpg",
+          price: 12
+        },
+        {
+          id: 23,
+          name: 'Organic Peanut Butter Bones',
+          imageUrl: "/images/shop-img/treats/treat5.jpg",
+          price: 8
+        },
+        {
+          id: 24,
+          name: 'Organic Raspberry Bones',
+          imageUrl: "/images/shop-img/treats/treat6.jpg",
+          price: 11
+        },
       ]
     }
 }
